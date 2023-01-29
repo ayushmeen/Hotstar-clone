@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <title>Hotstar</title>
+    <style type="text/css">
+      .card{
+        transition: all 0.3s;
+      }
+      .card:hover{
+        transform: scale(1.10);
+      }
+    </style>
+
+
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="logo2.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">v 
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">       
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TV
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="index.html">Mood mix</a></li>
+                  <li><a class="dropdown-item " href="special.html">Hotstar special</a></li>
+                  <li><a class="dropdown-item " href="sport.html">Star sports</a></li>
+                  
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="hindi.html">Hindi</a></li>
+                  <li><a class="dropdown-item " href="english.html">English</a></li>
+                  
+                  <li><a class="dropdown-item " href="tamil.html">Tamil</a></li>
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+                  <li><a class="dropdown-item" href="football.html">Football</a></li>
+                  <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                  
+                  <li><a class="dropdown-item" href="channel.html">Others</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="channel.html" target="_blank">Channels</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">SEARCH</button>
+            </form>
+           <a class="nav-link active btn btn-outline-success mx-3" aria-current="page" href="login.html" target="_blank">LOGIN</a>
+           <a class="nav-link active btn btn-outline-success" aria-current="page" href="https://www.hotstar.com/in/subscribe/get-started">SUBSCRIBE</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+           <a href="https://www.hotstar.com/in/tv/fall/1260122964"><img src="hh1.webp" height="500px" class="d-block w-100" ></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Legend of Hanuman</h5>
+              <h6>Hotstar Special - Mystery<h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="https://www.hotstar.com/in/movies/laali/1260105457"><img src="hh2.webp" height="500px" width="500px"  class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bagrangi Bhai Jaan</h5>
+              <h6>Hindi - Drama,Comedy - 2022</h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="https://www.hotstar.com/in/movies/jagamemaya-instant-karma/1260125568"><img src="hh3.webp" height="500px"  class="d-block w-100" alt="..."></a> 
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">AAR YA PAAR</h5>
+                <h5 class="text-white">1hr 51min 2022 - Action - U/A - 16+<h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><BR>
+
+
+
+      <h3>Vaction specials</h3>
+      <div class="card-group">
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="v1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">The Lion king</h6>
+              <h6 class="card-title">Comedy,kids</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+              
+            </div>
+          </div>
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="v2.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Light year</h6>
+                <h6 class="card-title">Action</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+                
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="v3.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Turning Red</h6>
+                <h6 class="card-title">Family,comedy</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="v4.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Luca</h6>
+                <h6 class="card-title">Fantasy,Family</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+               
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="v5.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Dabang</h6>
+                <h6 class="card-title">Action,Comedy,Kids</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+                
+                
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="v6.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Duck Tales</h6>
+                <h6 class="card-title">Comedy,Kids</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="v7.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Selfie Bajrangi</h6>
+                <h6 class="card-title">Comedy,Kids</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="v8.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Shinchan</h6>
+              <h6 class="card-title">Comedy,Kids</h6 ><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              
+            </div>
+  
+          </div>
+
+
+     
+    </div><BR>
+
+
+
+
+    <h3>Watch With Friends</h3>
+    <div class="card-group">
+        <div class="card">
+          <a href="https://www.hotstar.com/in" target="_blank"><img src="f1.webp" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h6 class="card-title">Tu Hai Mera Sunday</h6>
+            <h6 class="card-title">Comedy,Family</h6><br>
+            <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+              Watch Now</h4>
+            
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="https://www.hotstar.com/in" target="_blank" ><img src="f2.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Dil Dosti etc</h6>
+              <h6 class="card-title">Action,Comedy</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+              
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="f3.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">M.S Dhoni</h6>
+              <h6 class="card-title">Family,Biograpy</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="f4.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Avengers Infinity War</h6>
+              <h6 class="card-title">Comedy,Action</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+             
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="f5.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Toy Story</h6>
+              <h6 class="card-title">Action,Comedy</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+              
+              
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="f6.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Garam Masala</h6>
+              <h6 class="card-title">Comedy,Romance</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="f7.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Farewell</h6>
+              <h6 class="card-title">Comedy,Stradegy</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+          </div>
+
+
+        <div class="card">
+          <a href="https://www.hotstar.com/in" target="_blank" ><img src="f8.webp" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h6 class="card-title">Tuition ke Badd</h6>
+            <h6 class="card-title">Comedy,Adventure</h6><br>
+            <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+              Watch Now</h4>
+            
+          </div>
+
+        </div>
+
+
+   
+  </div><BR>
+
+
+
+        <h3>Best of 2022</h3>
+      <div class="card-group">
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="b1.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">FALL</h6>
+              <h6 class="card-title">2Hr 20Min,Action</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+          </div>
+  
+          
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="b3.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">THOR LOVE AND THUNDER</h6>
+                <h6 class="card-title">2Hr 30Min,Comedy</h6>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="b4.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">CUTPUTLLI</h6>
+                <h6 class="card-title">2Hr 30Min,Horror</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="c5.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">FREEDY</h6>
+                <h6 class="card-title">2Hr 15Min, Action</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="c7.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">SITA RAMAN</h6>
+                <h6 class="card-title">2Hr 45Min,Romance</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="b6.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">BHARMAASTRA</h6>
+                <h6 class="card-title">2Hr 30Min,Action</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="b7.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">DHEAN</h6>
+              <h6 class="card-title">2Hr 15Min, Action</h><br><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+            </div>
+  
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" > <img src="c9.webp"  class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">PALTHU JANWAR</h6>
+              <h6 class="card-title">1Hr 45Min,Comedy</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+
+      </div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+          <h3>Latest & Trending</h3>
+          <div class="card-group">
+              
+              <div class="card">
+                  <img src="c2.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">GOVINDA NAAM MERA</h6>
+                    <h6 class="card-title">2Hr 15Min, Drama</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4></a>
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="c3.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">JAGAMEMAYA</h6>
+                    <h6 class="card-title">2Hr 30Min,Comedy</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="c4.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">MONSTER</h6>
+                    <h6 class="card-title">2Hr 45Min,Action</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="c5.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">FREEDY</h6>
+                    <h6 class="card-title">2Hr 15Min, Action</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="c7.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">SITA RAMAN</h6>
+                    <h6 class="card-title">2Hr 45Min,Romance</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="c6.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">WILLOW</h6>
+                    <h6 class="card-title">2Hr 15Min,Action</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="c8.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">RORSCHACH</h6>
+                  <h6 class="card-title">2Hr 15Min, Action</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                </div>
+      
+              </div>
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="c9.webp"  class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">PALTHU JANWAR</h6>
+                  <h6 class="card-title">1Hr 45Min,Comedy</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                </div>
+      
+              </div>
+            </div><BR>
+
+
+
+
+
+
+
+        <footer class="bg-dark text-white text-center text-lg-start">
+        
+          <div class="container p-4">
+            
+            <div class="row">
+              
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                
+        
+                <p class="mt-6">
+                  © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
+                </p>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="about.html" target="_blank" class="btn text-white">About us</a>
+                  </li>
+                  <li>
+                    <a href="Carrer.html" target="_blank" class="btn text-white">Career</a>
+                  </li>
+                  <li>
+                    <a href="Contact.html" target="_blank" class="btn text-white">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="privacy.html" target="_blank" class="btn text-white">privacy policy</a>
+                  </li>
+                  <li>
+                    <a href="https://www.hotstar.com/in/terms-of-use" target="_blank" class="btn text-white">Terms and Conditions</a>
+                  </li>
+              
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <h5>Connect with us</h5>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/DisneyPlusHotstar" target="_blank" class="btn text-white"><img src="icons8-facebook-48.png"  alt=""></a>
+                    <a href="https://twitter.com/DisneyPlusHS" target="_blank" class="btn text-white "><img src="icons8-twitter-48.png" alt=""></a>
+                  </li>
+                  <li><h5>Disney+ Hotstar App</h5></li>
+                  <li>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-google-play-48.png" alt=""></a>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-app-store-48.png" alt=""></a>
+                  </li>
+                 
+                </ul>
+              </div>
+            
+            </div>
+           
+          </div>
+          
+        
+          
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a target="_blank" class="btn text-white" href="https://www.hotstar.com/in">Hotstar.com</a>
+          </div>
+          
+        </footer>
+    
+    
+</body>
+</html>

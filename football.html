@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <title>Hotstar</title>
+    <style type="text/css">
+      .card{
+        transition: all 0.3s;
+      }
+      .card:hover{
+        transform: scale(1.10);
+      }
+    </style>
+
+
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="logo2.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">v 
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">       
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TV
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="index.html">Mood mix</a></li>
+                  <li><a class="dropdown-item " href="special.html">Hotstar special</a></li>
+                  <li><a class="dropdown-item " href="sport.html">Star sports</a></li>
+                  
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="hindi.html">Hindi</a></li>
+                  <li><a class="dropdown-item " href="english.html">English</a></li>
+                  
+                  <li><a class="dropdown-item " href="tamil.html">Tamil</a></li>
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+                  <li><a class="dropdown-item" href="football.html">Football</a></li>
+                  <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                  
+                  <li><a class="dropdown-item" href="channel.html">Others</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="channel.html" target="_blank">Channels</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">SEARCH</button>
+            </form>
+           <a class="nav-link active btn btn-outline-success mx-3" aria-current="page" href="login.html" target="_blank">LOGIN</a>
+           <a class="nav-link active btn btn-outline-success" aria-current="page" href="https://www.hotstar.com/in/subscribe/get-started">SUBSCRIBE</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+           <a href="https://www.hotstar.com/in/tv/fall/1260122964"><img src="ff1.webp" height="500px"width="200px" class="d-block w-100" ></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">East Bengal</h5>
+              <h6 class="text-white">premier league 2022/23<h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="https://www.hotstar.com/in/movies/laali/1260105457"><img src="ff2.webp" height="500px"width="200px"  class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Brighton Aresenl 2-4</h5>
+              <h6 class="text-white">premier league 2022/23</h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="https://www.hotstar.com/in/movies/jagamemaya-instant-karma/1260125568"><img src="ff3.webp" height="500px"width="200px"  class="d-block w-100" alt="..."></a> 
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white">Liverpool 2-1</h5>
+                <h5 class="text-white">Liecester<h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><BR>
+
+
+
+
+      <h3>Premier League 2022/23</h3>
+      <div class="card-group">
+          
+          <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football"><img src="a1.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Tottenaham vs</h6>
+                <h6 class="card-title">Aston villa</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4></a>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a2.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Wolves 0-1</h6>
+                <h6 class="card-title">Manchester United</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a3.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Brighton 2-4 Arsenal</h6>
+                <h6 class="card-title">Champions</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a4.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">East bengal</h6>
+                <h6 class="card-title">FC- 2-1</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a5.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Hyderabad FC</h6>
+                <h6 class="card-title">6-1</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a6.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">ATK mohun Bagan</h6>
+                <h6 class="card-title">2-1 Goa</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a7.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Goals of GW</h6>
+              <h6 class="card-title">17 ft. March</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a8.webp"  class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Top moments of GW</h6>
+              <h6 class="card-title">17 ft.</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+        </div><BR>
+
+
+        <h3>Hero ISL 2022/23</h3>
+      <div class="card-group">
+          <div class="card">
+            <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a9.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Brighton 2-4 Arsenal</h6>
+              <h6 class="card-title">ft.17</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+          </div>
+  
+          
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a10.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Top moments of GW</h6>
+                <h6 class="card-title">2-1 Goa</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a11.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Manchester city</h6>
+                <h6 class="card-title">1-1 Everton</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a12.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Wolves 0-1 Machester</h6>
+                <h6 class="card-title">united</h6>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a13.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">saves of gw</h6>
+                <h6 class="card-title">17 ft.</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a14.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Best assists of</h6>
+                <h6 class="card-title">ThE sesson </h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a15.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Top moments of</h6>
+              <h6 class="card-title">GW 17 ft.</h><br><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+            </div>
+  
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in/sports/football" target="_blank" > <img src="a16.webp"  class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Saves of GW</h6>
+              <h6 class="card-title">Ramsdale</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+
+      </div><br>
+
+
+
+          <h3>Best of PL</h3>
+          <div class="card-group">
+              <div class="card">
+                <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a31.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">Top moments of</h6>
+                  <h6 class="card-title">GW 17 ft.</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+              </div>
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in/sports/football" target="_blank" > <img src="a32.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Best assists of</h6>
+                    <h6 class="card-title">ThE sesson </h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                    
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a33.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Chhetri </h6>
+                    <h6 class="card-title">remebers pele</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a34.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: </h6>
+                    <h6 class="card-title">Highlights</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+
+                   
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a21.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: rise of skipper</h6>
+                    <h6 class="card-title">Movement</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+ 
+
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a22.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Wolves 0-1 </h6>
+                    <h6 class="card-title"> Machester</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a23.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Brighton 2-4 Arsenal</h6>
+                    <h6 class="card-title">Parternership</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in/sports/football" target="_blank" ><img src="a24.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">Top moments of GW</h6>
+                  <h6 class="card-title">ft. 16</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+        </div>
+        </div><br>
+
+
+
+
+
+
+
+
+       
+
+
+        <footer class="bg-dark text-white text-center text-lg-start">
+        
+          <div class="container p-4">
+            
+            <div class="row">
+              
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                
+        
+                <p class="mt-6">
+                  © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
+                </p>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="about.html" target="_blank" class="btn text-white">About us</a>
+                  </li>
+                  <li>
+                    <a href="Carrer.html" target="_blank" class="btn text-white">Carrer</a>
+                  </li>
+                  <li>
+                    <a href="Contact.html" target="_blank" class="btn text-white">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="privacy.html" target="_blank" class="btn text-white">privacy policy</a>
+                  </li>
+                  <li>
+                    <a href="https://www.hotstar.com/in/terms-of-use" target="_blank" class="btn text-white">Terms and Conditions</a>
+                  </li>
+              
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <h5>Connect with us</h5>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/DisneyPlusHotstar" target="_blank" class="btn text-white"><img src="icons8-facebook-48.png"  alt=""></a>
+                    <a href="https://twitter.com/DisneyPlusHS" target="_blank" class="btn text-white "><img src="icons8-twitter-48.png" alt=""></a>
+                  </li>
+                  <li><h5>Disney+ Hotstar App</h5></li>
+                  <li>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-google-play-48.png" alt=""></a>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-app-store-48.png" alt=""></a>
+                  </li>
+                 
+                </ul>
+              </div>
+            
+            </div>
+           
+          </div>
+          
+        
+          
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a target="_blank" class="btn text-white" href="https://www.hotstar.com/in">Hotstar.com</a>
+          </div>
+          
+        </footer>
+    
+    
+</body>
+</html>
