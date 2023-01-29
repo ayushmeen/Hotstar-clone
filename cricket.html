@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <title>Hotstar</title>
+    <style type="text/css">
+      .card{
+        transition: all 0.3s;
+      }
+      .card:hover{
+        transform: scale(1.10);
+      }
+    </style>
+
+
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="logo2.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">v 
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">       
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TV
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="index.html">Mood mix</a></li>
+                  <li><a class="dropdown-item " href="special.html">Hotstar special</a></li>
+                  <li><a class="dropdown-item " href="sport.html">Star sports</a></li>
+                  
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="hindi.html">Hindi</a></li>
+                  <li><a class="dropdown-item " href="english.html">English</a></li>
+                  
+                  <li><a class="dropdown-item " href="tamil.html">Tamil</a></li>
+                  <li><a class="dropdown-item " href="channel.html">Others</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+                  <li><a class="dropdown-item" href="football.html">Football</a></li>
+                  <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+                  
+                  <li><a class="dropdown-item" href="channel.html">Others</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="channel.html" target="_blank">Channels</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">SEARCH</button>
+            </form>
+           <a class="nav-link active btn btn-outline-success mx-3" aria-current="page" href="login.html" target="_blank">LOGIN</a>
+           <a class="nav-link active btn btn-outline-success" aria-current="page" href="https://www.hotstar.com/in/subscribe/get-started">SUBSCRIBE</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+           <a href="https://www.hotstar.com/in/tv/fall/1260122964"><img src="fr1.webp" height="500px"width="200px" class="d-block w-100" ></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pandayas Biggest Takeaway From 2022</h5>
+              <h6>Sri Lanka Tour Of India 2022<h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="https://www.hotstar.com/in/movies/laali/1260105457"><img src="fr2.webp" height="500px"width="200px"  class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Best India Wins In 2022</h5>
+              <h6>Sport Special 2022</h6>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="https://www.hotstar.com/in/movies/jagamemaya-instant-karma/1260125568"><img src="fr3.webp" height="500px"width="200px"  class="d-block w-100" alt="..."></a> 
+            <div class="carousel-caption d-none d-md-block">
+                <h5>2022: Top Team India Knocks</h5>
+                <h5>Sport Special 2022<h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><BR>
+
+
+
+
+      <h3>Best Of India vs Sri Lanka</h3>
+      <div class="card-group">
+          
+          <div class="card">
+              <img src="1.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Pandyas Biggest</h6>
+                <h6 class="card-title">Takeaway From 2022</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4></a>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="2.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Gambir Previews SL</h6>
+                <h6 class="card-title">Challenge For Ind</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="3.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Ind set Take on Asian</h6>
+                <h6 class="card-title">Champions SL</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="4.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">10 In Row! India</h6>
+                <h6 class="card-title">Outclass SL</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="5.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">2-0! Unstoppable India seal</h6>
+                <h6 class="card-title">Series</h6>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="6.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Kishan Electrifying</h6>
+                <h6 class="card-title">Stuns SL</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="7.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Shankara</h6>
+              <h6 class="card-title">Lyer Takes india home with 74*</h6>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="8.webp"  class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">6,4,4! Jadeja Goes After</h6>
+              <h6 class="card-title">Chameera</h6>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+        </div><BR>
+
+
+        <h3>Rewind 2022: Best of Team India</h3>
+      <div class="card-group">
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="9.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">Jadejas Carrer-Best</h6>
+              <h6 class="card-title">175*</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+          </div>
+  
+          
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="10.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Kishan Electrifying</h6>
+                <h6 class="card-title">Stuns SL</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="11.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Lyer Takes india home with</h6>
+                <h6 class="card-title">74*</h6>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="12.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">Sensational SKY Thumps</h6>
+                <h6 class="card-title">Australia</h6>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="13.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">71st Ton! Kohli Ends</h6>
+                <h6 class="card-title">Three-Year-wait</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://www.hotstar.com/in" target="_blank" ><img src="14.webp" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title">DK Dominates SA</h6>
+                <h6 class="card-title">With T20!</h6><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+              </div>
+            </div>
+  
+  
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" ><img src="15.webp" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">inform pant Bolsters</h6>
+              <h6 class="card-title">With 96</h><br><br>
+                <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                  Watch Now</h4>
+            </div>
+  
+          </div>
+          <div class="card">
+            <a href="https://www.hotstar.com/in" target="_blank" > <img src="16.webp"  class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h6 class="card-title">India Crush SA</h6>
+              <h6 class="card-title">to Bounce back</h6><br>
+              <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                Watch Now</h4>
+            </div>
+  
+          </div>
+
+      </div><br>
+
+
+
+          <h3>Best of Sports</h3>
+          <div class="card-group">
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="17.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">71st Ton! Kohli End</h6>
+                  <h6 class="card-title">Three-Year-wait</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+              </div>
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" > <img src="18.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">India Seal series</h6>
+                    <h6 class="card-title">Virat Kohli and Suryakumar</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                    
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="19.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">India Won</h6>
+                    <h6 class="card-title">The World cup</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="20.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: Best off-field</h6>
+                    <h6 class="card-title">Highlights</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+
+                   
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="21.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: rise of skipper</h6>
+                    <h6 class="card-title">Movement</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+ 
+
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="22.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Bhuwneswar kumar</h6>
+                    <h6 class="card-title">Balling Strength Wins The Team</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="23.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Hardik Pandeya And Rishabh pant</h6>
+                    <h6 class="card-title">Parternership</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="24.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">World-cup</h6>
+                  <h6 class="card-title">Audience Smily Faces</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+        </div>
+        </div><br>
+
+
+
+
+
+
+
+
+        <h3>2022: The Best of Blues</h3>
+            <div class="card-group">
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="25.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: Rise of Skipper</h6>
+                    <h6 class="card-title">Pandya</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                    
+                  </div>
+                </div>
+        
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="26.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">2022: Top Team India</h6>
+                      <h6 class="card-title">Knocks</h6><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                      
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <a href="https://www.hotstar.com/in" target="_blank" ><img src="27.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">Kohli</h6>
+                      <h6 class="card-title">Returs to form</h6><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                    
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <a href="https://www.hotstar.com/in" target="_blank" ><img src="28.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">2022: Top knocks</h6>
+                      <h6 class="card-title">team India </h6><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                     
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <a href="https://www.hotstar.com/in" target="_blank" ><img src="29.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">kishan thoughts on his </h6>
+                      <h6 class="card-title">Double Ton</h6>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a href="https://www.hotstar.com/in" target="_blank" ><img src="30.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">72 Tons! Kohli Goes</h6>
+                      <h6 class="card-title">past</h6><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                    
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a href="https://www.hotstar.com/in" target="_blank" ><img src="31.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title">Highlights</h6>
+                      <h6 class="card-title">Best Knocks</h6><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                    </div>
+                  </div>
+        
+        
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="32.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Team wons</h6>
+                    <h6 class="card-title">20-20 World Cup</h6 ><br>
+                      <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                        Watch Now</h4>
+                    
+                  </div>
+        
+                </div>
+
+    
+           
+          </div><BR>
+
+
+
+          <h3>Popular in cricket</h3>
+          <div class="card-group">
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss1.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">71st Ton! Kohli End</h6>
+                  <h6 class="card-title">Three-Year-wait</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+              </div>
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" > <img src="sss2.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">India Seal series</h6>
+                    <h6 class="card-title">Virat Kohli and Suryakumar</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                    
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss3.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">India Won</h6>
+                    <h6 class="card-title">The World cup</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss4.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Test Match</h6>
+                    <h6 class="card-title">Highlights</h6><br>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+
+                   
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss5.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Recap 2022: Highlights</h6>
+                    <h6 class="card-title">Movement</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+ 
+
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss6.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Bhuwneswar kumar</h6>
+                    <h6 class="card-title">Balling Strength Wins The Team</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://www.hotstar.com/in" target="_blank" ><img src="sss7.webp" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h6 class="card-title">Hardik Pandeya And Rishabh pant</h6>
+                    <h6 class="card-title">Parternership</h6>
+                    <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                      Watch Now</h4>
+                  </div>
+                </div>
+      
+      
+              <div class="card">
+                <a href="https://www.hotstar.com/in" target="_blank" ><img src="S10.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="card-title">World-cup</h6>
+                  <h6 class="card-title">Audience Smily Faces</h6><br>
+                  <h4 class="card-title"><i class="bi bi-play-circle-fill card-icon"></i>
+                    Watch Now</h4>
+                  
+                </div>
+        </div>
+        </div><br>
+
+
+        <footer class="bg-dark text-white text-center text-lg-start">
+        
+          <div class="container p-4">
+            
+            <div class="row">
+              
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                
+        
+                <p class="mt-6">
+                  © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
+                </p>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="about.html" target="_blank" class="btn text-white">About us</a>
+                  </li>
+                  <li>
+                    <a href="Carrer.html" target="_blank" class="btn text-white">Carrer</a>
+                  </li>
+                  <li>
+                    <a href="Contact.html" target="_blank" class="btn text-white">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="privacy.html" target="_blank" class="btn text-white">privacy policy</a>
+                  </li>
+                  <li>
+                    <a href="https://www.hotstar.com/in/terms-of-use" target="_blank" class="btn text-white">Terms and Conditions</a>
+                  </li>
+              
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+              
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <h5>Connect with us</h5>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/DisneyPlusHotstar" target="_blank" class="btn text-white"><img src="icons8-facebook-48.png"  alt=""></a>
+                    <a href="https://twitter.com/DisneyPlusHS" target="_blank" class="btn text-white "><img src="icons8-twitter-48.png" alt=""></a>
+                  </li>
+                  <li><h5>Disney+ Hotstar App</h5></li>
+                  <li>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-google-play-48.png" alt=""></a>
+                    <a href="https://play.google.com/store/apps/details?id=in.startv.hotstar" target="_blank" class="btn text-white"><img src="icons8-app-store-48.png" alt=""></a>
+                  </li>
+                 
+                </ul>
+              </div>
+            
+            </div>
+           
+          </div>
+          
+        
+          
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a target="_blank" class="btn text-white" href="https://www.hotstar.com/in">Hotstar.com</a>
+          </div>
+          
+        </footer>
+    
+    
+</body>
+</html>
